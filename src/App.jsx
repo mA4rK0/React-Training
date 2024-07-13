@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import './App.css';
 
 function App() {
+  // * quote is a state variable that holds the quote
+  // * setQuote is a function that updates the state variable
   const [quote, setQuote] = useState("");
 
   async function getQuote() {
